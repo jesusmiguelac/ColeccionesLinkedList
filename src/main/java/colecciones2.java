@@ -4,13 +4,15 @@ public class colecciones2 {
     public static void main(String[] args) {
         LinkedList coleccion = new LinkedList();
         LinkedList coleccioninv = new LinkedList();
+        int ascii = 97;
 
-        System.out.println("Los números generados son: ");
+        System.out.println("Lista original: ");
 
-        for (int i = 0; i < 10; i++) {
-            coleccion.add((int) (Math.random() * 101));
+        for (int i=0; i<10; i++) {
+            coleccion.add(i, ((char)(ascii+i)));
             System.out.println(coleccion.get(i));
         }
+
 
         System.out.println("");
 

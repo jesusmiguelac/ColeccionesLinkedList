@@ -11,7 +11,7 @@ public class colecciones {
 
         System.out.println("Los números generados son: ");
 
-        for (int i=0 ; i<25 ; i++){
+        for (int i=0; i<25; i++){
             coleccion.add((int)(Math.random()*101));
             System.out.println(coleccion.get(i));
         }
@@ -22,11 +22,11 @@ public class colecciones {
 
         System.out.println("Números ordenados: ");
 
-        for (int i=0 ; i<25 ; i++){
+        for (int i=0; i<25; i++){
             System.out.println(coleccion.get(i));
         }
 
-        for (int i=0 ; i<25 ; i++){
+        for (int i=0; i<25; i++){
             suma += ((int)coleccion.get(i));
         }
 
